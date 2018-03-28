@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<time.h>
+
 #define size 120
 
 long int generatenumber(long int n_old[size]){
@@ -13,6 +13,7 @@ long int generatenumber(long int n_old[size]){
 		else return n;
 	}
 }
+
 
 FILE * f;
 
