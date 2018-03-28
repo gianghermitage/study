@@ -5,7 +5,6 @@
 #define emailsize 100
 #define phonesize 10
 
-
 FILE * f;
 
 int main(){
