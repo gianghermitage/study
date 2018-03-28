@@ -1,9 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<time.h>
-#define namesize 100
-#define emailsize 100
-#define phonesize 10
 
 FILE * f;
 
