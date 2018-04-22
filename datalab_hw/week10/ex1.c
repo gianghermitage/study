@@ -150,7 +150,7 @@ void heapsort(phonebook list[10], int n)
         heapify(list, n, i);
     for (int i = n - 1; i >= 0; i--)
     {
-        swap(&list[0], &list[1]);
+        swap(&list[0], &list[i]);
         heapify(list, i, 0);
     }
 }
