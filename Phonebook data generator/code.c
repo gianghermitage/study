@@ -105,7 +105,6 @@ int main()
     char *email = (char *)malloc(sizeof(char));
     char *phone = (char *)malloc(sizeof(char));
     
-
     srand(time(NULL));
 
     f = fopen("fullname.txt", "w+");
